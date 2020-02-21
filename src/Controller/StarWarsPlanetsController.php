@@ -25,7 +25,7 @@ class StarWarsPlanetsController extends AbstractController
         ]);
     }
 
-    public static function transformPlanet($plaet)
+    public static function transformPlanet($planet)
     {
         return [
             'planet_name' => $planet['name'],
@@ -40,7 +40,7 @@ class StarWarsPlanetsController extends AbstractController
      */
     public function index()
     {
-        $response = $this->client->request('GET', 'api/planetes');
+        $response = $this->client->request('GET', 'api/planets');
         $response = json_decode($response->getBody(), true);
         $planets = array_map([$this, 'transformPlanet'], $response['results']);
         return $this->json(['data' => $planets]);
