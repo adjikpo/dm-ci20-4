@@ -25,10 +25,10 @@ class StarWarsPlanetsController extends AbstractController
         ]);
     }
 
-    public static function transformPlanet($p)
+    public static function transformPlanet($planet)
     {
         return [
-            'planet_nom' => $planet['name'],
+            'planet_name' => $planet['name'],
             'planet_diameter' => intval($planet['diameter']),
             'planet_climate' => $planet['climate']
         ];
