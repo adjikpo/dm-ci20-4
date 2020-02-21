@@ -40,7 +40,7 @@ class StarWarsPlanetsController extends AbstractController
      */
     public function index()
     {
-        $response = $this->client->request('GET', 'api/planets');
+        $response = $this->client->request('GET', 'api/planetes');
         $response = json_decode($response->getBody(), true);
         $planets = array_map([$this, 'transformPlanet'], $response['results']);
         return $this->json(['data' => $planets]);
