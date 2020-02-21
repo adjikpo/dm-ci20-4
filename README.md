@@ -37,5 +37,6 @@ The main purpose of this repository is to continue evolving DM CI core. We want 
 DM CI is MIT licensed, as found in the [LICENSE][l] file.
 
 DM CI documentation is Creative Commons licensed, as found in the [LICENSE-docs][ld] file.
+
 [l]: https://github.com/adjikpo/dm-ci20-4
 [ld]: https://github.com/adjikpo/dm-ci20-4
