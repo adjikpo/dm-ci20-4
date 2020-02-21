@@ -1,0 +1,30 @@
+name: CI test
+on: push
+
+jobs:
+  testUnit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Install dependencies
+        run: composer install
+      - name: Run test unit
+        run: make test_unit
+        
+  testIntegration:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Install dependencies
+        run: composer install
+      - name: Run test integration
+        run: make test_integration
+
+  testFunctional:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Install dependencies
+        run: composer install
+      - name: Run test functional
+        run: make test_functional
