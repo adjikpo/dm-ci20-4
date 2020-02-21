@@ -1,7 +1,6 @@
 ---
-name: 🐛 Bug Report
-about: Report errors and problems
-labels: Bug
+name: 🚀 Feature Request
+about: RFC and ideas for new features and improvements
 ---
 **In raising this issue, I confirm the following (please check boxes):**
 - [ ] I have read and understood the [contributors guide]().
