@@ -47,17 +47,17 @@ make all_tests
 
 2- Launching of the 3 tests separately
  
-    2.1 Unit
+2.1 Unit
     ```bash
     make all_tests
     ```
 
-    2.1 Integration
+2.1 Integration
     ```bash
     make test_integration
     ```
 
-    2.1 Funtional
+2.1 Funtional
     ```bash
     make test_functional
     ```
