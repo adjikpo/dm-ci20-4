@@ -8,7 +8,7 @@ The contribution guide, issue, and pull request templates are given freely that 
 - [Requirements](#-requirements)
 - [Building your app](#-building-your-app)
 - [Documentation](#-documentation)
-- [Upgrading](#-upgrading)
+- [Launch the tests](#-lauch-the-tests)
 - [How to Contribute](#-how-to-contribute)
 - [License](#-license)
 ## Usage
@@ -25,6 +25,7 @@ Simply copy the `.github` directory to your project, and edit as required.
 0- If the first utlisation for intall all dependencies
 
 ```bash
+git clone 
 make install_dependencies
 ```
 1- Start the application
@@ -36,13 +37,35 @@ make sart
 ## 📖 Documentation
 
 
-## 🚀 Upgrading
+## ⚙️ Launch the tests
 
+1- Launching all test
+
+```bash
+make all_tests
+```
+
+2- Launching of the 3 tests separately
+
+    2.1 Unit
+    ```bash
+    make all_tests
+    ```
+
+    2.1 Integration
+    ```bash
+    make test_integration
+    ```
+
+    2.1 Funtional
+    ```bash
+    make test_functional
+    ```
 
 ## 👏 How to Contribute [contribute]
 
 The main purpose of this repository is to continue evolving DM CI core. We want to make contributing to this project as easy and transparent as possible, and we are grateful to the community for contributing bug fixes and improvements. Read below to learn how you can take part in improving DM CI.
-Please read [**Contributing.md**][contribute] to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to React Native.
+Please read [**Contributing.md**][contribute] to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to DM CI.
 
 [contribute]: https://github.com/adjikpo/dm-ci20-4/docs/contributing
 
