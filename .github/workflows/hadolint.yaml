@@ -8,5 +8,6 @@ jobs:
       - name: Lint Dockerfile
         uses: actions/checkout@v2
       - name: Dockder
-        run: curl -fsSL https://get.docker.com -o get-docker.sh | sh get-docker.sh
+        run: curl -fsSL https://get.docker.com -o get-docker.sh 
+          sh get-docker.sh
         
