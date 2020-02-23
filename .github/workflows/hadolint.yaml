@@ -1,13 +1,12 @@
 name: Lint Dockerfile
-
 on: push
 
 jobs:
   linter:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
       - name: Lint Dockerfile
+        uses: actions/checkout@v2
       - name: Dockder
         run: curl -fsSL https://get.docker.com -o get-docker.sh | sh get-docker.sh
         
