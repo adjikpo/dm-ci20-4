@@ -10,4 +10,6 @@ jobs:
       - name: Dockder
         run: curl -fsSL https://get.docker.com -o get-docker.sh 
           sh get-docker.sh
+      - name: Hadolint 
+        run: docker run --rm -v "$(PWD):/data" -w "/data" hadolint/hadolint hadolint Dockerfile
         
