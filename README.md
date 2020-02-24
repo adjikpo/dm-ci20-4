@@ -1,6 +1,6 @@
 # README DM CI
 
-![CI test](https://github.com/adjikpo/dm-ci20-4/workflows/CI%20test/badge.svg) ![Php Cs Fixer](https://github.com/adjikpo/dm-ci20-4/workflows/Php%20Cs%20Fixer/badge.svg) ![Lint Dockerfile](https://github.com/adjikpo/dm-ci20-4/workflows/.github/workflows/hadolint.yaml/badge.svg)
+![CI test](https://github.com/adjikpo/dm-ci20-4/workflows/CI%20test/badge.svg) ![Php Cs Fixer](https://github.com/adjikpo/dm-ci20-4/workflows/Php%20Cs%20Fixer/badge.svg) ![Lint Dockerfile](https://github.com/adjikpo/dm-ci20-4/workflows/Lint%20Dockerfile/badge.svg)
 
 The contribution guide, issue, and pull request templates are given freely that they might be used in other open source projects.
 ## Contents
