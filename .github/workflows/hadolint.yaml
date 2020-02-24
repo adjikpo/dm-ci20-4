@@ -1,0 +1,13 @@
+name: Lint Dockerfile
+on: push
+
+jobs:
+  linter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lint Dockerfile
+        uses: actions/checkout@v2
+      - name: Dockder
+        run: curl -sSL https://get.docker.com  | sh
+      - name: Hadolint 
+        run: docker run --rm -i hadolint/hadolint:latest-debian < Dockerfile
