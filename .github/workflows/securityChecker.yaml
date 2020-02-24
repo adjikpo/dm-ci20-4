@@ -1,0 +1,13 @@
+name: Security Checker
+on: push
+
+jobs:
+  securityChecker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Source
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: composer install
+      - name: Check for vulnerabilities
+        run: php bin/security-checker.phar security:check composer.lock
