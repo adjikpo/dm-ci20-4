@@ -1,0 +1,15 @@
+name: Security Checker
+on: push
+
+jobs:
+  securityChecker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Source
+        uses: actions/checkout@v1
+      - name: Install dependencies
+        run: composer install
+      - name: Update dependencies
+        run: composer update
+      - name: Check
+        run: php security-checker security:check /path/to/composer.lock

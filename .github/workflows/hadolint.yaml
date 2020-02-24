@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Lint Dockerfile
-        uses: actions/checkout@v2
+        uses: actions/checkout@v1
       - name: Dockder
         run: curl -sSL https://get.docker.com  | sh
       - name: Hadolint 

@@ -1,6 +1,6 @@
 # README DM CI
 
-![CI test](https://github.com/adjikpo/dm-ci20-4/workflows/CI%20test/badge.svg) ![Php Cs Fixer](https://github.com/adjikpo/dm-ci20-4/workflows/Php%20Cs%20Fixer/badge.svg) ![Lint Dockerfile](https://github.com/adjikpo/dm-ci20-4/workflows/Lint%20Dockerfile/badge.svg)
+![CI test](https://github.com/adjikpo/dm-ci20-4/workflows/CI%20test/badge.svg) ![Php Cs Fixer](https://github.com/adjikpo/dm-ci20-4/workflows/Php%20Cs%20Fixer/badge.svg) ![Lint Dockerfile](https://github.com/adjikpo/dm-ci20-4/workflows/Lint%20Dockerfile/badge.svg) ![Security Checker](https://github.com/adjikpo/dm-ci20-4/workflows/Security%20Checker/badge.svg)
 
 The contribution guide, issue, and pull request templates are given freely that they might be used in other open source projects.
 ## Contents
@@ -36,7 +36,9 @@ make sart
 
 ## 📖 Documentation
 DM CI use hadolint, if you need install hadolint in your project read the doc on [Hadolint-Github][hg] & [Hadolint-Integration][hi].
+I add security checker you have the doc on [Security-Checker][sc].
 
+[sc]: https://github.com/sensiolabs/security-checker
 [hg]: https://github.com/hadolint/hadolint 
 [hi]: https://github.com/hadolint/hadolint/blob/master/docs/INTEGRATION.md
 
