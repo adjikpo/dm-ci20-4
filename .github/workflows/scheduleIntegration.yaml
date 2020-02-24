@@ -1,0 +1,14 @@
+name: CI test
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '*/15 * * * *'
+jobs:
+  testIntegration:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Install dependencies
+        run: composer install
+      - name: Run test integration
+        run: make test_integration
