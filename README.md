@@ -36,7 +36,7 @@ make sart
 
 ## 📖 Documentation
 DM CI use hadolint, if you need install hadolint in your project read the doc on [Hadolint-Github][hg] & [Hadolint-Integration][hi].
-I add security checker you have the doc on [Security-Checker][sc]
+I add security checker you have the doc on [Security-Checker][sc].
 
 [sc]: https://github.com/sensiolabs/security-checker
 [hg]: https://github.com/hadolint/hadolint 

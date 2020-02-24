@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Source
-        uses: actions/checkout@v2
+        uses: actions/checkout@v1
       - name: Install dependencies
         run: composer install
       - name: Update dependencies
