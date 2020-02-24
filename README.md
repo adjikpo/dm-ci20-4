@@ -8,7 +8,7 @@ The contribution guide, issue, and pull request templates are given freely that 
 - [Requirements](#-requirements)
 - [Building your app](#-building-your-app)
 - [Documentation](#-documentation)
-- [Launch the tests](#-lauch-the-tests)
+- [Launch the tests](#-launch-the-tests)
 - [How to Contribute](#-how-to-contribute)
 - [License](#-license)
 ## Usage
@@ -35,6 +35,10 @@ make sart
 ```
 
 ## 📖 Documentation
+DM CI use hadolint, if you need install hadolint in your project read the doc on [Hadolint-Github][hg] & [Hadolint-Integration][hi].
+
+[hg]: https://github.com/hadolint/hadolint 
+[hi]: https://github.com/hadolint/hadolint/blob/master/docs/INTEGRATION.md
 
 
 ## ⚙️ Launch the tests
