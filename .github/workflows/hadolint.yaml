@@ -10,7 +10,4 @@ jobs:
       - name: Docker
         run: curl -sSL https://get.docker.com  | sh
       - name: Hadolint
-        run: docker run --rm -i hadolint/hadolint < Dockerfile
-        ignored:
-          - DL3018
-          - DL3019
+        run: docker run --rm -i hadolint/hadolint --ignore DL3018 --ignore DL3019 < Dockerfile
