@@ -9,5 +9,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Install dependencies
         run: composer install
-      - name: Check for vulnerabilities
+      - name: Update dependencies
+        run: composer update
+      - name: Check
         run: php bin/security-checker.phar security:check composer.lock
